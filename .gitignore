@@ -1,0 +1,49 @@
+# ─── Dataset
+*.csv
+*.xlsx
+*.xls
+
+# ─── Generated plot outputs (recreated on every run) ───
+*.png
+*.jpg
+*.jpeg
+
+# ─── Python cache ───
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ─── Jupyter Notebook checkpoints ───
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Virtual environment ───
+venv/
+env/
+.env/
+.venv/
+
+# ─── Trained model files (too large for GitHub) ───
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# ─── TensorFlow / Keras logs ───
+logs/
+tensorboard_logs/
+
+# ─── OS files ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE files ───
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
