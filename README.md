@@ -52,7 +52,7 @@ bank-fraud-detection/
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bank-fraud-detection.git
+git clone https://github.com/parth-05122005/FinanceFraudDetection.git
 cd bank-fraud-detection
 ```
 
