@@ -80,7 +80,7 @@ Download `Bank_Transaction_Fraud_Detection.csv` from Kaggle and place it in the 
 
 ### Step 4 — Train the Models
 
-Open and run `model.ipynb` in Jupyter Notebook, top to bottom.
+Open and run model.ipynb in Jupyter Notebook, top to bottom.
 
 ### Step 5 — Export the Model
 
