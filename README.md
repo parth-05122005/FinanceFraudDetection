@@ -30,7 +30,7 @@ The best performing model (Random Forest) is deployed via a **Flask web applicat
 ```
 bank-fraud-detection/
 │
-├── model.py        # Main training pipeline (all 20 steps)
+├── model.ipynb                     # Main training pipeline
 ├── save_model.py                   # Run after training to export model files
 ├── app.py                          # Flask web server
 ├── index.html                      # Frontend UI
