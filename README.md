@@ -80,11 +80,11 @@ Download `Bank_Transaction_Fraud_Detection.csv` from Kaggle and place it in the 
 
 ### Step 4 — Train the Models
 
-Open and run `model.ipy` in Jupyter Notebook, top to bottom.
+Open and run `model.ipynb` in Jupyter Notebook, top to bottom.
 
 ### Step 5 — Export the Model
 
-After training completes, run `save_model.py` (either as a notebook cell or script). This generates:
+After training completes, these files gets automatically generated:
 - `model_rf.pkl` — trained Random Forest
 - `scaler.pkl` — fitted scaler
 - `feature_columns.json` — feature order
