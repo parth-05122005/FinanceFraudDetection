@@ -1,12 +1,24 @@
-# ─── Dataset
+# ─── Dataset (too large for GitHub — download from Kaggle) ───
 *.csv
 *.xlsx
 *.xls
 
-# ─── Generated plot outputs (recreated on every run) ───
+# ─── Generated plot outputs (recreated every run) ───
 *.png
 *.jpg
 *.jpeg
+
+# ─── Exported model files (too large for GitHub) ───
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+
+# ─── Auto-generated JSON from save_model.py ───
+feature_columns.json
+label_mappings.json
 
 # ─── Python cache ───
 __pycache__/
@@ -15,7 +27,7 @@ __pycache__/
 *.pyd
 .Python
 
-# ─── Jupyter Notebook checkpoints ───
+# ─── Jupyter checkpoints ───
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
@@ -24,18 +36,12 @@ venv/
 env/
 .env/
 .venv/
-
-# ─── Trained model files (too large for GitHub) ───
-*.h5
-*.keras
-*.pkl
-*.joblib
-*.pt
-*.pth
+ENV/
 
 # ─── TensorFlow / Keras logs ───
 logs/
 tensorboard_logs/
+*.log
 
 # ─── OS files ───
 .DS_Store
